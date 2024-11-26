@@ -1,0 +1,34 @@
+/* style.css */
+
+.root {
+    -fx-background-color: #f0f4f8; /* Couleur de fond douce */
+    -fx-font-family: "Arial"; /* Police de caractères */
+}
+
+.label {
+    -fx-text-fill: #333; /* Couleur du texte */
+}
+
+.button {
+    -fx-background-color: #007bff; /* Couleur de fond des boutons */
+    -fx-text-fill: white; /* Couleur du texte des boutons */
+    -fx-padding: 10px 20px; /* Padding des boutons */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-font-weight: bold; /* Texte en gras */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-background-radius: 5px; /* Coins arrondis */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+.vbox {
+    -fx-spacing: 15; /* Espace entre les éléments */
+}
+
+.title {
+    -fx-font-size: 24px; /* Taille du titre */
+    -fx-font-weight: bold; /* Texte en gras */
+    -fx-padding: 10; /* Espace autour du titre */
+}
